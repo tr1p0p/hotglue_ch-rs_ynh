@@ -66,4 +66,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-gd"
+    packages = "php7.4-gd"
