@@ -17,7 +17,7 @@ website = "https://hotglue.me"
 demo = "https://hotglue.me/demo/"
 admindoc = "https://discourse.superglue.it/c/hotglue"
 userdoc = "https://discourse.superglue.it/c/hotglue"
-code = "https://github.com/k0a1a/hotglue2"
+code = "https://github.com/ch-rs/hotglue2"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -54,8 +54,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/k0a1a/hotglue2/archive/refs/tags/release.tar.gz"
-    sha256 = "48fe7d5c6075a9729da038ad46e154a86a6c7f644306d88db761413cbbeeae4d"
+    url = "https://github.com/ch-rs/hotglue2/archive/refs/heads/dev.zip"
+    sha256 = "4da558b3d6a69f055158f21b63c2e3ceaa8366e12664022a92b8c0ea3b8ea8ef"
 
     [resources.system_user]
     
@@ -66,4 +66,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php7.2-gd"
+    packages = "php8.2-gd"
